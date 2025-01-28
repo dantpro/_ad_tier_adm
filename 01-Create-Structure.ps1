@@ -42,6 +42,10 @@ $OUs = @(
         path="OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
+        name="Privileged Access Workstations";
+        path="OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=lab"
+    },
+    @{
         name="PKI";
         path="OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
@@ -56,6 +60,10 @@ $OUs = @(
     @{
         name="Laptops";
         path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab"
+    },
+    @{
+        name="Privileged Access Workstations";
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Network";
