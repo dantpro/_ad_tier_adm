@@ -37,8 +37,8 @@ It’s recommended to first test the deployment in a lab environment. This will 
 
 ### Links
 
-[Original SalutAToi/AD-Tier-Administration](https://github.com/SalutAToi/AD-Tier-Administration)  
-[Fork Oyon84/AD-Tier-Administration](https://github.com/Oyon84/AD-Tier-Administration) 
+_Original_ [SalutAToi/AD-Tier-Administration](https://github.com/SalutAToi/AD-Tier-Administration)  
+_Fork_ [Oyon84/AD-Tier-Administration](https://github.com/Oyon84/AD-Tier-Administration) 
 
 [Download scripts from GitHub](https://github.com/dantpro/___ad-tier-adm/archive/refs/heads/master.zip)   
 [GitHub Repo](https://github.com/dantpro)
