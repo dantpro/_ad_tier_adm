@@ -1,5 +1,5 @@
 # _ad_tier_adm
-Collection of scripts and input data for creationn and management of AD Tier Administration for _contoso.lab_ domain __(DC=contoso,DC=lab)__
+Collection of scripts and input data for creationn and management of AD Tier Administration for __contoso.lab__ domain _(DC=contoso,DC=lab)_
 
 Original [SalutAToi/AD-Tier-Administration](https://github.com/SalutAToi/AD-Tier-Administration)  
 
