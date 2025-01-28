@@ -36,10 +36,10 @@ $ActiveDirectoryRightsList = @(
     "WriteProperty"
     )
 $InheritanceTypeList = @(
-        "All",
-        "Children",
-        "Descendents",
-        "None",
+    "All",
+    "Children",
+    "Descendents",
+    "None",
     "SelfAndChildren"
 )
 $AccessControlTypeList = @(
