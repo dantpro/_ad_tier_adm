@@ -69,7 +69,7 @@ The script will perform a check the object after its created, if something faile
 
 ### Prerequisites 
 - Rename user locations in **Create-Structure.ps1** to something sensible for your organization. Currently marked as Location 1, 2, 3, 4 and 5.
-- Rename path to your domain. Current value is "DC=contoso,DC=lab" standing for test.local as domain name. Use your text editor to find DC=contoso,DC=lab and replace with DC=yourdomain,DC=local
+- Rename path to your domain. Current value is "DC=contoso,DC=lab" standing for contoso.lab as domain name. Use your text editor to find DC=contoso,DC=lab and replace with DC=yourdomain,DC=local
 - Create any extra OU's 
 
 ### Run script
@@ -263,7 +263,7 @@ If the script has run successful it should show the following output for each GP
 ```
 Creating GPO C_PWR_Desktop power management
 DisplayName      : C_PWR_Desktop power management
-DomainName       : test.local
+DomainName       : contoso.lab
 Owner            : TEST\Domain Admins
 Id               : cdb51cfc-7158-4829-8a59-03b10b7e5320
 GpoStatus        : AllSettingsEnabled
@@ -277,7 +277,7 @@ WmiFilter        :
 
 Setting permission to GPO C_PWR_Desktop power management
 DisplayName      : C_PWR_Desktop power management
-DomainName       : test.local
+DomainName       : contoso.lab
 Owner            : TEST\Domain Admins
 Id               : cdb51cfc-7158-4829-8a59-03b10b7e5320
 GpoStatus        : AllSettingsEnabled
@@ -297,7 +297,7 @@ Enabled       : True
 Enforced      : False
 Order         : 1
 Target        : OU=Desktops,OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab
-GpoDomainName : test.local
+GpoDomainName : contoso.lab
 ```
 All GPO objects are deployed and linked to the correct OU. Next step is to configure settings for the GPO's, but that part is not covered in this guid.
 
