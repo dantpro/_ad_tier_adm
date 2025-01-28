@@ -5,4 +5,5 @@ Original [SalutAToi/AD-Tier-Administration](https://github.com/SalutAToi/AD-Tier
 
 Fork [Oyon84/AD-Tier-Administration](https://github.com/Oyon84/AD-Tier-Administration)  
 
-My fork of fork ) [dantpro/___ad-tier-adm] (https://github.com/dantpro/___ad-tier-adm)
+My fork of fork ) [dantpro/___ad-tier-adm](https://github.com/dantpro/___ad-tier-adm)  
+
