@@ -11,7 +11,6 @@
 "ROLE_T0_PKI Server Admin","SRV_Tier 0 PKI SRV_LOCAL ADM"
 "ROLE_T0_PKI Server Admin","OU_Tier 0 PKI SRV_LINK GPO"
 "ROLE_T0_PKI Server Admin","GPO_Tier 0 PKI SRV_MOD"
-"ROLE_T0_Global GPO Admin","GPO_Tier 0 Global GPO_MOD"
 "ROLE_T0_Privileged Access Workstation Admin","COMPTR_Tier 0 Privileged Access Workstations_MOD"
 "ROLE_T0_Privileged Access Workstation Admin","COMPTR_Tier 0 Privileged Access Workstations_RENAME"
 "ROLE_T0_Privileged Access Workstation Admin","COMPTR_Tier 0 Privileged Access Workstations_DEL"
