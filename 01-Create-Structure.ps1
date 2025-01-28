@@ -6,6 +6,10 @@ $OUs = @(
         path="DC=contoso,DC=lab"
     },
     @{
+        name="Disabled Users";
+        path="DC=contoso,DC=lab"
+    },
+    @{
         name="Users";
         path="OU=Corp,DC=contoso,DC=lab"
     },
