@@ -69,7 +69,7 @@ The script will perform a check the object after its created, if something faile
 
 ### Prerequisites 
 - Rename user locations in **Create-Structure.ps1** to something sensible for your organization. Currently marked as Location 1, 2, 3, 4 and 5.
-- Rename path to your domain. Current value is "DC=test,DC=local" standing for test.local as domain name. Use your text editor to find DC=test,DC=local and replace with DC=yourdomain,DC=local
+- Rename path to your domain. Current value is "DC=contoso,DC=lab" standing for test.local as domain name. Use your text editor to find DC=contoso,DC=lab and replace with DC=yourdomain,DC=local
 - Create any extra OU's 
 
 ### Run script
@@ -77,51 +77,51 @@ Next step is to run the script. Output should look similar to the following:
 
 ```
 PS C:\Users\Administrator> C:\Temp\Create-Structure.ps1
-Creating OU Corp in DC=test,DC=local
-Creating OU Users in OU=Corp,DC=test,DC=local
-Creating OU Service in OU=Corp,DC=test,DC=local
-Creating OU Administration in OU=Corp,DC=test,DC=local
-Creating OU Computers in OU=Corp,DC=test,DC=local
-Creating OU Tier 2 in OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Tier 1 in OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Tier 0 in OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Terminal servers in OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU PKI in OU=Tier 0,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Shared in OU=Tier 2,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Desktops in OU=Tier 2,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Laptops in OU=Tier 2,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Network in OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Application in OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU File in OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Update in OU=Tier 1,OU=Computers,OU=Corp,DC=test,DC=local
-Creating OU Delft in OU=Users,OU=Corp,DC=test,DC=local
-Creating OU Location2 in OU=Users,OU=Corp,DC=test,DC=local
-Creating OU Location3 in OU=Users,OU=Corp,DC=test,DC=local
-Creating OU Location4 in OU=Users,OU=Corp,DC=test,DC=local
-Creating OU Location5 in OU=Users,OU=Corp,DC=test,DC=local
-Creating OU Offsite in OU=Users,OU=Corp,DC=test,DC=local
-Creating OU Contractors in OU=Users,OU=Corp,DC=test,DC=local
-Creating OU Tier 0 in OU=Service,OU=Corp,DC=test,DC=local
-Creating OU Tier 1 in OU=Service,OU=Corp,DC=test,DC=local
-Creating OU Users in OU=Tier 0,OU=Service,OU=Corp,DC=test,DC=local
-Creating OU Users in OU=Tier 1,OU=Service,OU=Corp,DC=test,DC=local
-Creating OU Tier 0 in OU=Administration,OU=Corp,DC=test,DC=local
-Creating OU Tier 1 in OU=Administration,OU=Corp,DC=test,DC=local
-Creating OU Tier 2 in OU=Administration,OU=Corp,DC=test,DC=local
-Creating OU Users in OU=Tier 0,OU=Administration,OU=Corp,DC=test,DC=local
-Creating OU Users in OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local
-Creating OU Users in OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local
-Creating Container Security groups in OU=Corp,DC=test,DC=local
-Creating Container Access Control in CN=Security groups,OU=Corp,DC=test,DC=local
-Creating Container Roles in CN=Security groups,OU=Corp,DC=test,DC=local
-Creating Container Access Control in OU=Tier 0,OU=Administration,OU=Corp,DC=test,DC=local
-Creating Container Roles in OU=Tier 0,OU=Administration,OU=Corp,DC=test,DC=local
-Creating Container Access Control in OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local
-Creating Container Roles in OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local
-Creating Container Access Control in OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local
-Creating Container Roles in OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local
-Creating Container Access Control in OU=Tier 1,OU=Service,OU=Corp,DC=test,DC=local
-Creating Container Access Control in OU=Tier 0,OU=Service,OU=Corp,DC=test,DC=local
+Creating OU Corp in DC=contoso,DC=lab
+Creating OU Users in OU=Corp,DC=contoso,DC=lab
+Creating OU Service in OU=Corp,DC=contoso,DC=lab
+Creating OU Administration in OU=Corp,DC=contoso,DC=lab
+Creating OU Computers in OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 2 in OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 1 in OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 0 in OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Terminal servers in OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU PKI in OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Shared in OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Desktops in OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Laptops in OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Network in OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Application in OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU File in OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Update in OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab
+Creating OU Delft in OU=Users,OU=Corp,DC=contoso,DC=lab
+Creating OU Location2 in OU=Users,OU=Corp,DC=contoso,DC=lab
+Creating OU Location3 in OU=Users,OU=Corp,DC=contoso,DC=lab
+Creating OU Location4 in OU=Users,OU=Corp,DC=contoso,DC=lab
+Creating OU Location5 in OU=Users,OU=Corp,DC=contoso,DC=lab
+Creating OU Offsite in OU=Users,OU=Corp,DC=contoso,DC=lab
+Creating OU Contractors in OU=Users,OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 0 in OU=Service,OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 1 in OU=Service,OU=Corp,DC=contoso,DC=lab
+Creating OU Users in OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=lab
+Creating OU Users in OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 0 in OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 1 in OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating OU Tier 2 in OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating OU Users in OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating OU Users in OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating OU Users in OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating Container Security groups in OU=Corp,DC=contoso,DC=lab
+Creating Container Access Control in CN=Security groups,OU=Corp,DC=contoso,DC=lab
+Creating Container Roles in CN=Security groups,OU=Corp,DC=contoso,DC=lab
+Creating Container Access Control in OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating Container Roles in OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating Container Access Control in OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating Container Roles in OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating Container Access Control in OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating Container Roles in OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=lab
+Creating Container Access Control in OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=lab
+Creating Container Access Control in OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=lab
 
 PS C:\Users\Administrator> 
 ```
@@ -138,7 +138,7 @@ Next step is to create groups that will be used for different purposes. The "**g
 - Add any custom groups you want to deploy as well to the CSV file, see example:
 ```
 Name,Path,GroupScope,GroupCategory
-COMPTR_Default Container_CREATE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=test,DC=local",DomainLocal,Security
+COMPTR_Default Container_CREATE,"CN=Access Control,OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
 ```
 
 ### Run Script
@@ -289,14 +289,14 @@ ComputerVersion  : AD Version: 0, SysVol Version: 0
 WmiFilter        : 
 
 
-Linking GPO C_PWR_Desktop power management to OU OU=Desktops,OU=Tier 2,OU=Computers,OU=Corp,DC=test,DC=local
+Linking GPO C_PWR_Desktop power management to OU OU=Desktops,OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab
 
 DisplayName   : C_PWR_Desktop power management
 GpoId         : cdb51cfc-7158-4829-8a59-03b10b7e5320
 Enabled       : True
 Enforced      : False
 Order         : 1
-Target        : OU=Desktops,OU=Tier 2,OU=Computers,OU=Corp,DC=test,DC=local
+Target        : OU=Desktops,OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab
 GpoDomainName : test.local
 ```
 All GPO objects are deployed and linked to the correct OU. Next step is to configure settings for the GPO's, but that part is not covered in this guid.
@@ -333,7 +333,7 @@ This script requires two input files in JSON format.
 ```
 [
     {
-        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local",
+        "DistinguishedName": "OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab",
         "ACEs": [
                     {
                         "Group": "USR_Tier 1 ADM Users PW_RST",
@@ -351,23 +351,23 @@ Change permission.json to your requirements, you can find example files in the G
 Run the script without any parameters to do a dry-run. This will go through the whole script and checks the two input files, but will not update any ACL (access control list). 
 ```
 PS C:\Temp> .\Create-ACEs.ps1
-Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
-Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
-Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
-Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
-Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
-Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
+Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
+Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
+Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
+Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
+Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
+Set-ACL -Path AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab -AclObject System.DirectoryServices.ActiveDirectorySecurity -Verbose
 ...
 ```
 When the script has finished and errors are found a log file will be created *ACEDelegation.log* in the location you run the script from. Verify the errors and correct them before you run the script with the LIVE parameter.
 ```
 PS C:\Temp> .\Create-ACEs.ps1 LIVE
-VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local".
-VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local".
-VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local".
-VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local".
-VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local".
-VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=test,DC=local".
+VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab".
+VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab".
+VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab".
+VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab".
+VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab".
+VERBOSE: Performing the operation "Set-Acl" on target "AD:\OU=Users,OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab".
 ...
 ```
 
