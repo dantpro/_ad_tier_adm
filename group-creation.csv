@@ -10,6 +10,7 @@ SRV_Tier 0 PKI SRV_DEL,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC
 SRV_Tier 0 PKI SRV_CREATE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
 SRV_Tier 0 PKI SRV_MOVE,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
 SRV_Tier 0 PKI SRV_LOCAL ADM,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
+OU_Tier 0 ALL SRV_LINK GPO,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
 OU_Tier 0 PKI SRV_LINK GPO,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
 COMPTR_Tier 0 Privileged Access Workstations_MOD,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
 COMPTR_Tier 0 Privileged Access Workstations_RENAME,"CN=Access Control,OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab",DomainLocal,Security
