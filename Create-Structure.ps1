@@ -3,186 +3,186 @@
 $OUs = @(
     @{
         name="Corp";
-        path="DC=contoso,DC=com"
+        path="DC=contoso,DC=lab"
     },
     @{
         name="Users";
-        path="OU=Corp,DC=contoso,DC=com"
+        path="OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Service";
-        path="OU=Corp,DC=contoso,DC=com"
+        path="OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Administration";
-        path="OU=Corp,DC=contoso,DC=com"
+        path="OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Computers";
-        path="OU=Corp,DC=contoso,DC=com"
+        path="OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 2";
-        path="OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 1";
-        path="OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 0";
-        path="OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Terminal servers";
-        path="OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="PKI";
-        path="OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 0,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Shared";
-        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Desktops";
-        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Laptops";
-        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Network";
-        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Application";
-        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="File";
-        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Update";
-        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Computers,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Adelaide";
-        path="OU=Users,OU=Corp,DC=contoso,DC=com"
+        path="OU=Users,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Melbourne";
-        path="OU=Users,OU=Corp,DC=contoso,DC=com"
+        path="OU=Users,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Sydney";
-        path="OU=Users,OU=Corp,DC=contoso,DC=com"
+        path="OU=Users,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Perth";
-        path="OU=Users,OU=Corp,DC=contoso,DC=com"
+        path="OU=Users,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Brisbane";
-        path="OU=Users,OU=Corp,DC=contoso,DC=com"
+        path="OU=Users,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Offsite";
-        path="OU=Users,OU=Corp,DC=contoso,DC=com"
+        path="OU=Users,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Contractors";
-        path="OU=Users,OU=Corp,DC=contoso,DC=com"
+        path="OU=Users,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 0";
-        path="OU=Service,OU=Corp,DC=contoso,DC=com"
+        path="OU=Service,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 1";
-        path="OU=Service,OU=Corp,DC=contoso,DC=com"
+        path="OU=Service,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Users";
-        path="OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Users";
-        path="OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 0";
-        path="OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 1";
-        path="OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Tier 2";
-        path="OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Users";
-        path="OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Users";
-        path="OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Users";
-        path="OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     }
 )
 
 $Containers = @(
     @{
         name="Security groups";
-        path="OU=Corp,DC=contoso,DC=com"
+        path="OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Access Control";
-        path="CN=Security groups,OU=Corp,DC=contoso,DC=com"
+        path="CN=Security groups,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Roles";
-        path="CN=Security groups,OU=Corp,DC=contoso,DC=com"
+        path="CN=Security groups,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Access Control";
-        path="OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Roles";
-        path="OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 0,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Access Control";
-        path="OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Roles";
-        path="OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Access Control";
-        path="OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Roles";
-        path="OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 2,OU=Administration,OU=Corp,DC=contoso,DC=lab"
     }
     @{
         name="Access Control";
-        path="OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 1,OU=Service,OU=Corp,DC=contoso,DC=lab"
     },
     @{
         name="Access Control";
-        path="OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=com"
+        path="OU=Tier 0,OU=Service,OU=Corp,DC=contoso,DC=lab"
     }
 )
 
