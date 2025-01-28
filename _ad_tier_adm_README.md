@@ -40,8 +40,8 @@ It’s recommended to first test the deployment in a lab environment. This will 
 __Original__ [SalutAToi/AD-Tier-Administration](https://github.com/SalutAToi/AD-Tier-Administration)  
 __Fork__ [Oyon84/AD-Tier-Administration](https://github.com/Oyon84/AD-Tier-Administration) 
 
-[Download scripts from GitHub](https://github.com/dantpro/___ad-tier-adm/archive/refs/heads/master.zip)   
-[GitHub Repo](https://github.com/dantpro)
+[Download scripts from GitHub](https://github.com/dantpro/_ad_tier_adm/archive/refs/heads/master.zip)   
+[GitHub Repo](https://github.com/dantpro/_ad_tier_adm)
 
 ### Requirements
 - AD domain
