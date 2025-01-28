@@ -195,7 +195,7 @@
                 "AccessControlType": "Allow",
                 "ObjectName": "computer"
             }
-        }
+        },
     ],
     "ModifyComputer": [
         {
